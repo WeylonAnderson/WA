@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/1671461642_kalix-club-p-kira-yoshikage-oboi-na-telefon-krasivo-17.jpg);
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  width: 500px; /* ширина */
+  margin: 0 auto; /* центрування блоку */
+  padding: 10px 30px;
+  border: 4px solid rgb(167, 111, 182) ;
+  border-radius: 10px;
+  background-color: rgb(210, 149, 205);
+
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(128, 58, 115);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between; /* горизонтально - по краям */
+  align-items: center; /* вертикально - по центру */
+  border-bottom: 1px solid mediumpurple; /* нижня рамка пыд задачею */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(204, 120, 201);
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  font-size: 14px;
+
+  transition: all 0.3s; /* плавна анімація */
+}
+
+.btn:hover {
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: silver;
+  letter-spacing: 2px;
+  
+}
+.complete{
+  color:rgb(144, 90, 151);
+  text-decoration: line-through;
+}
